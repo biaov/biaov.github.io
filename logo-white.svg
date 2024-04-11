@@ -12,7 +12,7 @@
       }
       .cls-1 {
         animation: floating ease-in-out 1s infinite alternate;
-        fill: url(#_未命名的渐变_4);
+        fill: #fff;
       }
     </style>
     <linearGradient id="_未命名的渐变_4" data-name="未命名的渐变 4" x1="1.92" y1=".63" x2="77.59" y2="76.29" gradientUnits="userSpaceOnUse">
