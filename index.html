@@ -5,10 +5,18 @@
     <link rel="icon" type="image/svg+xml" href="/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>作品集</title>
+    <script>
+      // 防止暗色用户刷新闪白：尽早应用已记忆的主题
+      if (localStorage.getItem('theme') === 'dark') {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
     <meta name="keywords" content="个人网站，作品集" />
     <meta name="description" content="这是一个个人网站，也是一个作品集，入口" />
-    <script type="module" crossorigin src="/assets/index-iIQplC_I.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Dse_7f43.css">
+    <script type="module" crossorigin src="/assets/js/index-C-KmoyEn.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/swiper-BR_d2JC2.js">
+    <link rel="stylesheet" crossorigin href="/assets/css/swiper-DjMxu4j7.css">
+    <link rel="stylesheet" crossorigin href="/assets/css/index-CE0ABdGX.css">
   </head>
   <body>
     <div id="app"></div>
